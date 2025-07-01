@@ -1,3 +1,10 @@
+## [3.0.1](https://github.com/jairo-bc/stencil-cli/compare/3.0.0...3.0.1) (2025-07-01)
+
+
+### Bug Fixes
+
+* update package to fork ([ad7d5f5](https://github.com/jairo-bc/stencil-cli/commit/ad7d5f5abaa890359017bf747989f984fec7a177))
+
 ## [8.8.0](https://github.com/bigcommerce/stencil-cli/compare/8.7.0...8.8.0) (2025-06-27)
 
 

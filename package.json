@@ -1,5 +1,5 @@
 {
-  "name": "@bigcommerce/stencil-cli",
+  "name": "@jairo-bc/stencil-cli",
   "version": "8.8.0",
   "type": "module",
   "description": "CLI tool to run BigCommerce Stores locally for theme development.",
@@ -33,14 +33,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bigcommerce/stencil-cli"
+    "url": "https://github.com/jairo-bc/stencil-cli"
   },
   "author": "BigCommerce",
   "license": "BSD-4-Clause",
   "bugs": {
-    "url": "https://github.com/bigcommerce/stencil-cli/issues"
+    "url": "https://github.com/jairo-bc/stencil-cli/issues"
   },
-  "homepage": "https://github.com/bigcommerce/stencil-cli",
+  "homepage": "https://github.com/jairo-bc/stencil-cli",
   "files": [
     "/lib",
     "/bin",

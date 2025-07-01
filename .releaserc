@@ -7,7 +7,7 @@
       "@semantic-release/changelog",
       "@semantic-release/github",
       [
-        "semantic-release-github-pullrequest", {
+        "semantic-release-github-pullrequest-fixed", {
           "assets": ["CHANGELOG.md", "package.json"],
           "baseRef": "master"
         }

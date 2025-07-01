@@ -118,5 +118,6 @@
     "jest": "^29.7.0",
     "prettier": "2.1.2",
     "semantic-release": "^24.1.1",
-    "semantic-release-github-pullrequest": "git+ssh://git@github.com/jairo-bc/semantic-release-github-pullrequest.git"  }
+    "semantic-release-github-pullrequest": "github:jairo-bc/semantic-release-github-pullrequest"
+  }
 }

@@ -4,13 +4,6 @@
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
-      "@semantic-release/changelog",
-      "@semantic-release/github",
-      [
-        "semantic-release-github-pullrequest-fixed", {
-          "assets": ["CHANGELOG.md", "package.json"],
-          "baseRef": "master"
-        }
-      ]
+      "@semantic-release/changelog"
     ]
 }

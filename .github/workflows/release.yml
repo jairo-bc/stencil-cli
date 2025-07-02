@@ -37,10 +37,11 @@ jobs:
               with:
                   images: ghcr.io/${{ github.repository_owner }}/stencil-cli
                   tags: |
-                      type=semver,pattern={{version}}
-                      type=semver,pattern={{major}}.{{minor}}
-                      type=semver,pattern={{major}}
-                      type=raw,pattern=latest
+                      type=pep440,pattern={{version}}
+                      type=pep440,pattern={{major}}.{{minor}}
+                      type=pep440,pattern={{major}}
+                      type=raw,value=latest
+
             - name: Set up Docker Buildx
               uses: docker/setup-buildx-action@v3
 

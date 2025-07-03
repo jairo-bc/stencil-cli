@@ -14,12 +14,12 @@ jobs:
               with:
                   node-version: '20.x'
             - run: npm i
-            - name: Get latest Git tag
-              id: tag
-              run: |
-                  git fetch --tags
-                  TAG=$(git describe --tags --abbrev=0)
-                  echo "tag=$TAG" >> $GITHUB_OUTPUT
+            # - name: Get latest Git tag
+            #   id: tag
+            #   run: |
+            #       git fetch --tags
+            #       TAG=$(git describe --tags --abbrev=0)
+            #       echo "tag=$TAG" >> $GITHUB_OUTPUT
             - name: Extract metadata (tags, labels) for Docker
               id: meta
               uses: docker/metadata-action@v5

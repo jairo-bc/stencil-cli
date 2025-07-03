@@ -24,9 +24,15 @@ jobs:
                   GA_USERNAME: ${{ secrets.PAT_USERNAME }}
                   GA_TOKEN: ${{ secrets.PAT_TOKEN }}
 
+            - name: Get latest Git tag
+              id: tag
+              run: |
+                  git fetch --tags
+                  TAG=$(git describe --tags --abbrev=0)
+                  echo "tag=$TAG" >> $GITHUB_OUTPUT
             - name: Get current tag
               run: |
-                echo "Tag: ${{ github.ref_name }}"
+                  echo "Tag: ${{ steps.tag.outputs.tag }}"
             - name: Log in to the Github Container registry
               uses: docker/login-action@v3
               with:

@@ -1,4 +1,4 @@
-name: Docker Release
+name: Docker Release 2
 
 on:
     push:
